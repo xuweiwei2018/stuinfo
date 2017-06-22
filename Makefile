@@ -15,4 +15,4 @@ clean:
 install:
 	cp *.cgi /usr/lib/cgi-bin/sx
 	sudo cp index.html head.html /var/www/html/
-	111
+	sudo cp head.html footer.html /usr/lib/cgi-bin/sx/
